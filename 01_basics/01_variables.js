@@ -20,11 +20,11 @@ let accountstate;
 // const can't be redeclared neither re assign
 // console.log(accountID);  //not allowed
 
-holdername = "samarth"
+holdername = "sam"
 accountpassword = "8888"
 accountcity = "jaipur"
 
-console.table([accountID,holdername,accountpassword,accountcity,accountstate])
+console.table([accountID, holdername, accountpassword, accountcity, accountstate])
 
 
 
