@@ -1,3 +1,5 @@
+// maths
+
 console.log(Math)
 console.log(Math.abs(-3))
 
