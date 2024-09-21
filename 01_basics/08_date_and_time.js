@@ -18,6 +18,8 @@ console.log(createdate.toLocaleDateString())
 let mytimestamp = Date.now();  // it gives the time in milliseconds and the time comes from the starting time to till now 
 console.log(mytimestamp)
 console.log(createdate.getTime())
+
+//to convert milliseconds to seconds we divide it by 1000
 console.log(Date.now() / 1000)
 
 let newdate = new Date()
