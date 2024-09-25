@@ -9,11 +9,11 @@ domuser.isLoggedIn = false
 console.log(domuser);
 
 const regularuser = {
-    email : "shrey@gmail.com",
-    fullname : {
-        userfullname : {
-            firstname : "shrey",
-            lastname : "sam"
+    email: "shrey@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "shrey",
+            lastname: "sam"
         }
     }
 }
@@ -22,47 +22,67 @@ console.log(regularuser.fullname?.userfullname.firstname);
 
 
 const obj1 = {
-    1 : "a",
-    2 : "b"
+    1: "a",
+    2: "b"
 }
 
 const obj2 = {
-    3:"a",
-    4:"b"
+    3: "a",
+    4: "b"
 }
 
 const obj3 = {
-    5:"a",
-    6:"b"
+    5: "a",
+    6: "b"
 }
 
-const newobj = {obj1,obj2}
+const newobj = { obj1, obj2 }
 // console.log(newobj);
 
 
 // here assign is used to merge objects 
-const obj4 = Object.assign({},obj1,obj2,obj3)
+const obj4 = Object.assign({}, obj1, obj2, obj3)
 console.log(obj4);
 
 //best practice to use to merge two objects 
-const otherobj = {...obj1,...obj2}
+const otherobj = { ...obj1, ...obj2 }
 console.log(otherobj);
 
 const user = [
-    
+
     {
-        id : 1,
-        name : "shrey"
+        id: 1,
+        name: "shrey"
     },
     {
-        id : 2,
-        name : "shrey"
+        id: 2,
+        name: "shrey"
     },
     {
-        id : 3,
-        name : "shrey"
+        id: 3,
+        name: "shrey"
     }
 ]
 
 user[1].name
+
+// console.log(Object.keys(domuser))
+// console.log(Object.values(domuser))
+// console.log(Object.entries(domuser))
+
+// console.log(domuser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    name: "maths",
+    id: "2002",
+    price: "500"
+}
+
+// console.log(course.name)
+
+// used as a another method of using the keys values of the object
+const { name } = course
+
+console.log(name)
+
 
