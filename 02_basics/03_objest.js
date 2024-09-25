@@ -56,4 +56,4 @@ console.log(user.greetingtwo())
 
 
 //after freezing we can't add any data to object even the new function also 
-Object.freeze(user)
+Object.freeze(user);
