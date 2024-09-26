@@ -35,3 +35,24 @@ console.log(loginusermessage("shreyansh"));
 console.log(loginusermessage());
 
 
+
+// ... -> spread or rest operator (it is used to club or spread different values)
+function calculatecartprice(val1,val2,...nums1){
+    return nums1
+}
+
+console.log(calculatecartprice(200,400,800,700));
+
+const user = {
+    username : "shrey",
+    age : 23
+}
+
+function handlejob(anyobject){
+    console.log(`username is ${anyobject.username} and age is ${anyobject.age}`);
+}
+
+
+
+
+
