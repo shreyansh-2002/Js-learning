@@ -53,6 +53,21 @@ function handlejob(anyobject){
 }
 
 
+// handlejob(user)
+handlejob({
+    username : "sam",
+    age : 21
+})
+
+const mynewarray = [200,400,600,100]
+
+function returnsecondvalue(getArray) {
+    return getArray[1]
+}
+
+console.log(returnsecondvalue([4,5,7,2]));
+
+
 
 
 
