@@ -28,6 +28,8 @@
 
 // console.log(map);
 
+
+// here putting key and values 
 // for (const [key,value] of map) {
 //     console.log(key);
 // }
@@ -39,6 +41,6 @@ const myobj = {
 
 
 // for of loop don't work for objects 
-for (const [key, values] of myobj) {
-    console.log(key, ':-', values);
-}
+// for (const [key, values] of myobj) {
+//     console.log(key, ':-', values);
+// }
